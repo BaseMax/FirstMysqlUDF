@@ -34,6 +34,14 @@ CREATE FUNCTION mcalc RETURNS STRING SONAME "mcalc.so";
 DROP FUNCTION mcalc;
 ```
 
+### Add module as mysql plugins
+
+It will show path where to put the `.so` file:
+
+```sql
+SHOW VARIABLES LIKE 'plugin_dir';
+```
+
 ---------
 
 # Max Base
