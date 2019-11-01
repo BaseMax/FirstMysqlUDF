@@ -1,11 +1,11 @@
 /**
  *
- * @Name : FirstMysqlUDP
+ * @Name : FirstMysqlUDF
  * @Version : 1.0
  * @Programmer : Max
  * @Date : 2019-11-01
- * @Released under : https://github.com/BaseMax/FirstMysqlUDP/blob/master/LICENSE
- * @Repository : https://github.com/BaseMax/FirstMysqlUDP
+ * @Released under : https://github.com/BaseMax/FirstMysqlUDF/blob/master/LICENSE
+ * @Repository : https://github.com/BaseMax/FirstMysqlUDF
  *
 **/
 /*
@@ -65,7 +65,6 @@ extern "C" void mcalc_deinit(UDF_INIT *) {}
 
 extern "C" int mcalc(UDF_INIT *, UDF_ARGS *args, char *result, unsigned long *length, unsigned char *is_null, unsigned char *) {
 	const char *input = args->args[0];
-	int val = 0;
 	if (!input) {
 		assert(args->lengths[0] == 0);
 		*is_null = 1;
