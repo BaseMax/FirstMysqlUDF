@@ -6,6 +6,26 @@
 
 Sample repository to extend MySQL server by develop additional function. (MySQL UDF)
 
+### Compiling
+
+```
+gcc -shared -o mcalc.so mcalc.cc
+cd sql
+make mcalc.o
+```
+
+### Installing module
+
+```sql
+CREATE FUNCTION mcalc RETURNS STRING SONAME "mcalc.so";
+```
+
+### Uninstalling module
+
+```sql
+DROP FUNCTION mcalc;
+```
+
 ---------
 
 # Max Base
