@@ -23,10 +23,17 @@ make mcalc.o
 CREATE FUNCTION mcalc RETURNS int SONAME "mcalc.so";
 ```
 
+**(Not for this repo) Return Double:**
+```sql
+CREATE FUNCTION mcalc RETURNS double SONAME "mcalc.so";
+```
+
 **(Not for this repo) Return String:**
 ```sql
 CREATE FUNCTION mcalc RETURNS STRING SONAME "mcalc.so";
 ```
+
+
 
 ### Uninstalling module
 
