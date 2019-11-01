@@ -49,6 +49,13 @@ It will show path where to put the `.so` file:
 SHOW VARIABLES LIKE 'plugin_dir';
 ```
 
+**Tested on: MariaDB 10.3.18**
+
+# MariaDB-MySQL References
+
+- https://github.com/MariaDB/server
+- https://github.com/mysql/mysql-server
+
 ---------
 
 # Max Base
