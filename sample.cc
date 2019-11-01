@@ -50,6 +50,7 @@
 #include "mysql.h"
 // For MariaDB
 // #include "mariadb.h"
+// #include "mariadb/mysql.h"
 
 // #include "mysql/udf_registration_types.h" Not need.
 
