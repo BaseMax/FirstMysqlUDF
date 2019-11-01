@@ -53,6 +53,7 @@ SHOW VARIABLES LIKE 'plugin_dir';
 
 # MariaDB-MySQL References
 
+- https://github.com/BaseMax/MysqlCalc
 - https://github.com/MariaDB/server
 - https://github.com/mysql/mysql-server
 
