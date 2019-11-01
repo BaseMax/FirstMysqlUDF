@@ -16,6 +16,12 @@ make mcalc.o
 
 ### Installing module
 
+**Return Integer:**
+```sql
+CREATE FUNCTION mcalc RETURNS int SONAME "mcalc.so";
+```
+
+**(Not for this repo) Return String:**
 ```sql
 CREATE FUNCTION mcalc RETURNS STRING SONAME "mcalc.so";
 ```
