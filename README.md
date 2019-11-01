@@ -4,6 +4,8 @@ Sample repository to extend MySQL server by develop additional function. (MySQL 
 
 # UDF Repository for MySQL
 
+![screenshot - Extend your MySQL server with additional functions](screenshot1.jpg)
+
 ## Extend your MySQL server with additional functions
 
 ### Compiling
