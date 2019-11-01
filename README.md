@@ -9,7 +9,7 @@ Sample repository to extend MySQL server by develop additional function. (MySQL 
 ### Compiling
 
 ```
-gcc -shared -o mcalc.so mcalc.cc
+gcc -shared -o mcalc.so sample.cc
 cd sql
 make mcalc.o
 ```
