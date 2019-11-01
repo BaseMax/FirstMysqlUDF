@@ -46,8 +46,12 @@
 #include <string>
 #include <vector>
 
+// For MySQL
 #include "mysql.h"
-#include "mysql/udf_registration_types.h"
+// For MariaDB
+// #include "mariadb.h"
+
+// #include "mysql/udf_registration_types.h" Not need.
 
 #ifdef _WIN32
 	#pragma comment(lib, "ws2_32")
